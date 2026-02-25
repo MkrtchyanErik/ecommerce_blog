@@ -1,0 +1,204 @@
+@import url(../main.css);
+
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+#hero {
+    min-height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px;
+    background-image: url(/images/BLOG_HERO.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: 90px;
+}
+
+#hero h1 {
+    font-size: 70px !important;
+}
+
+.posts_grid_main {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-bottom: 60px;
+}
+
+.posts_grid {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 15px;
+    row-gap: 15px;
+}
+
+.posts_grid .latest_article img {
+    width: 100%;
+}
+
+.last_post {
+    color: unset;
+    text-decoration: none;
+    grid-area: 1/1/2/-1;
+    height: 500px;
+    border-radius: 20px;
+    border: 0.1px solid rgb(110, 110, 110);
+    transition: 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.last_post:hover {
+    border-color: #1CDDE6;
+    transform: translateX(-4px) translateY(-4px);
+    box-shadow: 4px 4px 0 #1CDDE6;
+}
+
+.last_post_image {
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.last_post_info {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_post_info_div_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+.last_post_info_div_div div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+
+.last_post_info_div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.postDate {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.latest_article_postDate {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.latest_article {
+    color: unset;
+    text-decoration: none;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.latest_article:hover {
+    border-color: #1CDDE6;
+    transform: translateX(-4px) translateY(-4px);
+    box-shadow: 4px 4px 0 #1CDDE6;
+}
+
+
+.latest_article_img {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://en.shiftdelete.net/wp-content/uploads/2024/09/galaxy-a56-islemci-performansi-ozellikleri-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.latest_article_info {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 70px 25px 15px;
+}
+
+.latest_article_read_more {
+    background-color: white;
+    border: 0.1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.latest_article_read_more:hover {
+    border-color: #1CDDE6;
+    transform: translateX(-4px) translateY(-4px);
+    box-shadow: 4px 4px 0 #1CDDE6;
+}
+
+
+.latest_article_readingTime {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.latest_article_content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+
+
+.load_more {
+    margin: 0 auto;
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    border: 0.1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.load_more:hover {
+    border-color: #1CDDE6;
+    transform: translateX(-4px) translateY(-4px);
+    box-shadow: 4px 4px 0 #1CDDE6;
+}

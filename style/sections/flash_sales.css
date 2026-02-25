@@ -1,0 +1,138 @@
+.flash_sales,
+.flash_sales_2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 35px;
+    margin-bottom: 70px;
+}
+
+.flash_sales_content,
+.flash_sales_content_2 {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+}
+
+
+.flash_sales .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+
+}
+
+.product {
+    transition: transform 0.3s ease;
+    background-color: rgba(241, 241, 241, 0.559);
+    border: 1px solid rgba(167, 167, 167, 0.562);
+    border-radius: 4px;
+
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product_image {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 12px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(167, 167, 167, 0.562);
+    background-color: white;
+}
+
+.product1 .product_image {
+    background-image: url(/images/Gamepad.png);
+}
+
+.product2 .product_image {
+    background-image: url(/images/kayboard.png);
+}
+
+.product3 .product_image {
+    background-image: url(/images/Computer.png);
+}
+
+.product4 .product_image {
+    background-image: url(/images/ator.png);
+}
+
+.discount {
+    height: 26px;
+    width: 55px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons {
+    height: 76px;
+    width: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons div {
+    background-color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons div:hover {
+    background: #DB4444;
+    color: white;
+}
+
+.icons .fa {
+    font-size: 20px !important;
+}
+
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.price {
+    color: #DB4444;
+}
+
+
+.view {
+    width: 234px !important;
+    height: 56px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.view:hover {
+    background-color: #e03131;
+    box-shadow: 0 4px 15px rgba(219, 68, 68, 0.3);
+}

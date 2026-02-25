@@ -1,0 +1,39 @@
+.flash_sales_2 .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+
+.flash_sales_2_product1 .product_image {
+        background-image: url(/images/Dog\ food.png) !important;
+}
+
+.flash_sales_2_product2 .product_image {
+        background-image: url(/images/DSLR\ camera.png) !important;
+}
+
+.flash_sales_2_product3 .product_image {
+        background-image: url(/images/ASUS\ Laptop.png) !important;
+}
+
+.flash_sales_2_product4 .product_image {
+        background-image: url(/images/Curology.png) !important;
+}
+
+.flash_sales_2_product5 .product_image {
+        background-image: url(/images/Kids\ Car.png) !important;
+}
+
+.flash_sales_2_product6 .product_image {
+        background-image: url(/images/Soccer\ Cleats.png) !important;
+}
+
+.flash_sales_2_product7 .product_image {
+        background-image: url(/images/black\ Gamepad.png) !important;
+}
+
+.flash_sales_2_product8 .product_image {
+        background-image: url(/images/Jacket.png) !important;
+}

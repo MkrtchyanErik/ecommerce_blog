@@ -1,0 +1,24 @@
+.main-featured{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ .featured {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .featdiv {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
+
+ .featdiv div {
+     border-radius: 4px;
+     height: 40px;
+     min-width: 20px;
+     
+ }

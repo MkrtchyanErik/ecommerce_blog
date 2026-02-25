@@ -1,0 +1,238 @@
+@import url(sections/flash_sales.css);
+@import url(sections/flash_sales_2.css);
+@import url(sections/featured.css);
+@import url(sections/header.css);
+@import url(sections/menu.css);
+@import url(sections/footer.css);
+@import url(sections/benefits.css);
+@import url(sections/pageup.css);
+@import url(media/media.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+* a {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+.hr {
+  max-width: 1170px;
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.td {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.text-36-500 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.text-32-700 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.text-28-400 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.text-28-600 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.text-24-700 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.text-24-600 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text-24-400 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.text-20-600 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.text-20-500 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.text-20-400 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-19-500 {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text-16-600 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.text-16-500 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+
+.text-16-400 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text-14-600 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text-14-400 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.text-12-500 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.text-12-400 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.text-11-400 {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+
+.white {
+  color: #fafafa;
+}
+
+.red {
+  color: #DB4444;
+}
+
+.gray {
+  color: #ffffff54;
+}
+
+.green {
+  color: #00ff66;
+}
+
+.black {
+  color: #000000;
+}
+
+.blue {
+  color: #0095ff;
+}
+
+.back-white {
+  background-color: #fafafa;
+}
+
+.back-red {
+  background-color: #DB4444;
+}
+
+.back-gray {
+  background-color: #F9F9F9;
+}
+
+.back-green {
+  background-color: #00ff66;
+}
+
+.back-black {
+  background-color: #000000;
+}
+
+.back-blue {
+  background-color: #0095ff;
+}

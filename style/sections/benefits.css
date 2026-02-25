@@ -1,0 +1,62 @@
+.benefits {
+    width: 100%;
+    padding: 0px 35px;
+    margin-bottom: 70px;
+
+}
+
+.benefits_content {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.new_arrival_Div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.new_arrival_Div div {
+    margin-bottom: 16px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 11px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+.View {
+    width: 234px !important;
+    height: 56px;
+    border-radius: 4px;
+    margin: 60px auto;
+    border: none;
+    box-shadow: 0px 0px 10px 5px #DB4444;
+    transition: 0.5s;
+}
+
+.View:hover {
+    box-shadow: 0px 0px 10px 10px #DB4444;
+}
+
+.fg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

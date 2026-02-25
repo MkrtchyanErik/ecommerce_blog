@@ -1,0 +1,93 @@
+@import url(../main.css);
+
+.our_story {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.our_story_content {
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.text div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.servis {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   margin-bottom: 70px;
+}
+
+.servis_content{
+    width: 1170px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serDiv {
+    width: 270px;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.Stext {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.Sicon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    border: 11px solid #9d9d9d;
+    transition: 0.5s;
+}
+
+.Sicon svg {
+    transition: 0.5s;
+
+    fill: white;
+}
+
+.serDiv:hover {
+    background-color: #41c6ff;
+    color: white;
+}
+
+.serDiv:hover .Sicon svg {
+    fill: black;
+}
+
+.serDiv:hover .Sicon {
+    background-color: white;
+    border: 11px solid #58565647;
+}
