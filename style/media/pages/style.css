@@ -1,0 +1,6 @@
+@import url(/style/media/media.css);
+@media (max-width: 1170px) {
+    .hero_content, .browse_by_category_content {
+        width: 100% !important;
+    }
+}
