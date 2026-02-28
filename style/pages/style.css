@@ -94,7 +94,15 @@
     background-size: cover;
 }
 
-
+.hero_content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
 
 
 
@@ -255,6 +263,4 @@
 .new_arrival-bottomside {
     display: flex;
     gap: 30px;
-
 }
-

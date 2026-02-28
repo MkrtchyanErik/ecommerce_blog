@@ -1,5 +1,5 @@
 window.addEventListener("scroll", function () {
-    let header = document.querySelector(".menu-header");
+    let header = document.querySelector("header");
     if (window.scrollY > 250) {
         header.classList.add("sticky");
         header.classList.remove("not_sticky");
