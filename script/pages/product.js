@@ -27,7 +27,7 @@ if (document.body.getAttribute("data-page-id") == "4") {
             })
         });
         document.querySelector(".product_info h3").innerHTML = products_main.title
-        document.querySelector(".product_price").innerHTML = "<span class='blue text-28-600'>Price: </span>" + "$" + products_main.price
+        document.querySelector(".product_price").innerHTML = "<h6 class='blue'>Price: </h6>" + "$" + products_main.price
         document.querySelector(".product_info_description").innerHTML = "<span class='blue text-20-600'>Description:</span> " + products_main.description
         let attributes = document.querySelector(".attributes")
 
