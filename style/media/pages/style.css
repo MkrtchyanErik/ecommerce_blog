@@ -1,6 +1,18 @@
-@import url(/style/media/media.css);
-@media (max-width: 1170px) {
-    .hero_content, .browse_by_category_content {
-        width: 100% !important;
+@media (max-width: 777px) {
+    .Hero {
+        height: 400px;
     }
+
+    .hero_content {
+        padding-top: 60px;
+    }
+
+    .hero_content h3 {
+        width: 200px;
+    }
+
+    .hero_content h6 {
+        width: 300px;
+    }
+
 }

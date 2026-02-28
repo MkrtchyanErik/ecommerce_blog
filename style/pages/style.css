@@ -53,7 +53,8 @@
 }
 
 .browse_by_category_content {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -87,6 +88,7 @@
 
 .Hero {
     width: 100%;
+    height: 601px;
     margin-bottom: 70px;
     background-image: url(/images/HERO_HOME.webp);
     background-position: center right;
@@ -96,7 +98,8 @@
 }
 
 .hero_content {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     padding-top: 100px;
@@ -112,6 +115,13 @@
         0 0 40px #0099ff;
 }
 
+.hero_content h3{
+    width: 300px;
+}
+
+.hero_content h6{
+    width: 500px;
+}
 
 .categories {
     width: 100%;
