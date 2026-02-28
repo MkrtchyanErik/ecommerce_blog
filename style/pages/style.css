@@ -86,94 +86,16 @@
 
 .Hero {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    height: 600px;
     margin-bottom: 70px;
-}
-
-.Hero_content {
-    width: 1170px;
-    display: flex;
-    justify-content: space-between;
-    height: 384px;
-}
-
-
-.h1 {
-    display: flex;
-    flex-direction: column;
-    border-right: 0.5px solid black;
-    justify-content: space-between;
-    width: 20%;
-    padding-top: 40px;
-
-}
-
-.h1 a {
-    transition: 0.5s;
-}
-
-.h1 a:hover {
-    filter: brightness(0.8);
-    color: blue;
-}
-
-.a {
-    display: flex;
-    gap: 30px;
-}
-
-.fa-apple {
-    color: white;
-}
-
-.h2 {
-    background-image: url(/images/hero1\ image.jpg);
+    background-image: url(/images/HERO_HOME.jpg);
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 79%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 64px;
-}
-
-.h2img {
-    display: none;
-}
-
-.h2 p {
-    color: white;
-}
-
-.fa-apple {
-    font-size: 50px !important;
-}
-
-.apple {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-.app {
-    display: flex;
-    align-items: center;
-    gap: 24px;
 }
 
 
-.fa-arrow-right {
-    color: white;
-    font-size: 25px !important;
-}
 
-.shopnow {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
 
 
 .categories {

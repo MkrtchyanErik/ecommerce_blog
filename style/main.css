@@ -63,25 +63,19 @@ h3 {
   line-height: 48px;
 }
 
-.text-36-500 {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 30px;
-}
-
-.text-32-700 {
+h4 {
   font-size: 32px;
   font-weight: 700;
   line-height: 30px;
 }
 
-.text-28-400 {
+.h5 {
   font-size: 28px;
   font-weight: 400;
   line-height: 30px;
 }
 
-.text-28-600 {
+h6 {
   font-size: 28px;
   font-weight: 600;
   line-height: 30px;

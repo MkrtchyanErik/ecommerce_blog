@@ -19,94 +19,21 @@ footer {
     padding: 70px 0px;
 }
 
-.syte i {
-    font-size: 20px !important;
-}
 
-.f1 {
+footer .pages {
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 5px;
 }
 
-.f1-1 {
+footer .pages div {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 5px;
 }
 
-.f1-inp {
-    height: 48px;
-    width: 217px;
-    background-color: transparent;
-    position: relative;
+.logo {
+    width: 300px;
+    object-fit: cover;
+    margin: 0 auto;
 }
-
-.f1-inp input {
-    width: 100%;
-    height: 100%;
-    border: 0.5px solid white;
-    border-radius: 4px;
-    box-shadow: 0px 0px 10px 3px white;
-    position: relative;
-    background-color: black;
-    color: white;
-    padding: 0px 30px 0px 10px;
-}
-
-.send {
-    position: absolute;
-    height: 24px;
-    width: 24px;
-    bottom: calc(24px - 12px);
-    right: 5px;
-}
-
-
-.f2 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-}
-
-
-.f2-1 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-}
-
-
-.f5 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-}
-
-
-.qga {
-    display: flex;
-    gap: 11px;
-    margin-top: 8px;
-    margin-bottom: 24px;
-}
-
-.ga {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
-.syte {
-    display: flex;
-    justify-content: space-between;
-    width: 168px;
-}
-
-.syte i {
-    width: 24px;
-    height: 24px;
-    color: white;
-}
-
