@@ -20,5 +20,7 @@ function renederAllScipts(){
     }
 }
 
-
-renederAllScipts()
+setTimeout(() => {
+    
+    renederAllScipts()
+}, 1000);
