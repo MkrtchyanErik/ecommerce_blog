@@ -88,7 +88,7 @@
     width: 100%;
     height: 600px;
     margin-bottom: 70px;
-    background-image: url(/images/HERO_HOME.jpg);
+    background-image: url(/images/HERO_HOME.png);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,4 +255,5 @@
 .new_arrival-bottomside {
     display: flex;
     gap: 30px;
+
 }
