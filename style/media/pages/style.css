@@ -14,7 +14,7 @@
     .hero_content h6 {
         width: 300px;
     }
-    footer .logo{
-        width: 50px;
+    footer img.logo{
+        width: 50px !important;
     }
 }
