@@ -5,7 +5,7 @@ let posts_data_json = [
     excerpt: "Even though DDR5 is the new standard, DDR4 remains a powerhouse for budget builders.",
     postDate: "30. October 2025",
     readingTime: "5",
-    featuredImage: "https://ipc2u.com/upload/medialibrary/bbd/7qiexek2xzru1liih2qnc08xh51tmazn.jpeg",
+    featuredImage: "https://ipc2u.com/upload/medialibrary/bbd/7qiexek2xzru1liih2qnc08xh51tmazn",
     content: "<h2>DDR4 vs DDR5</h2><p>DDR4 is still a smart choice for gamers...</p>"
   },
   {
@@ -14,7 +14,7 @@ let posts_data_json = [
     excerpt: "Looking for portable power? We rank the top 5 gaming laptops this year.",
     postDate: "12. January 2026",
     readingTime: "7",
-    featuredImage: "https://i.rtings.com/assets/pages/6dRuEBex/best-gaming-laptops-20242028-medium.jpg?format=auto",
+    featuredImage: "https://i.rtings.com/assets/pages/6dRuEBex/best-gaming-laptops-20242028-medium.webp?format=auto",
     content: "<h2>Portable Power</h2><p>The latest mobile GPUs are changing the game...</p>"
   },
   {
@@ -23,7 +23,7 @@ let posts_data_json = [
     excerpt: "Steam Deck, Ally, and Legion Go have changed the game. Is a handheld PC a better investment?",
     postDate: "14. February 2026",
     readingTime: "6",
-    featuredImage: "https://darkflash-image-cloud.s3.us-west-2.amazonaws.com/cdn/article/attach/000000000000203/202505260032645.jpg",
+    featuredImage: "https://darkflash-image-cloud.s3.us-west-2.amazonaws.com/cdn/article/attach/000000000000203/202505260032645.webp",
     content: "<h2>Gaming on the Go</h2><p>Handhelds are becoming primary PCs...</p>"
   },
   {
@@ -32,7 +32,7 @@ let posts_data_json = [
     excerpt: "Linear, Tactile, or Clicky? Find the perfect switch for your typing style.",
     postDate: "20. February 2026",
     readingTime: "8",
-    featuredImage: "https://cdn.thewirecutter.com/wp-content/media/2025/12/BEST-MECHANICAL-KEYBOARDS-2048px-TOP-ART-2X1-V2.jpg?width=2048&quality=75&crop=2:1&auto=webp",
+    featuredImage: "https://cdn.thewirecutter.com/wp-content/media/2025/12/BEST-MECHANICAL-KEYBOARDS-2048px-TOP-ART-2X1-V2.webp?width=2048&quality=75&crop=2:1&auto=webp",
     content: "<h2>Clicky or Silent?</h2><p>Your keyboard is your main interface...</p>"
   },
   {

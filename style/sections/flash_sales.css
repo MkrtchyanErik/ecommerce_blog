@@ -53,22 +53,6 @@
     background-color: white;
 }
 
-.product1 .product_image {
-    background-image: url(/images/Gamepad.png);
-}
-
-.product2 .product_image {
-    background-image: url(/images/kayboard.png);
-}
-
-.product3 .product_image {
-    background-image: url(/images/Computer.png);
-}
-
-.product4 .product_image {
-    background-image: url(/images/ator.png);
-}
-
 .discount {
     height: 26px;
     width: 55px;
