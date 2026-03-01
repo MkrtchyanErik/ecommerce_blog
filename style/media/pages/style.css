@@ -14,7 +14,15 @@
     .hero_content h6 {
         width: 300px;
     }
-    footer img.logo{
+
+    footer img.logo {
         width: 50px !important;
     }
 }
+
+/* 
+@media (max-width: 389px) {
+    .technic {
+            gap: 0;
+    }
+} */
