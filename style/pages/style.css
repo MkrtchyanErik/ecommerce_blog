@@ -29,7 +29,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 0.4fr));
     overflow: hidden;
-    gap: 10px;
 
 }
 
