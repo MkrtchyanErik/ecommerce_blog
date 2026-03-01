@@ -28,6 +28,7 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, 0.4fr));
+    gap: 10px;
     overflow: hidden;
 
 }
