@@ -18,6 +18,15 @@
     footer img.logo {
         width: 50px !important;
     }
+
+    .categories {
+        height: 300px;
+    }
+
+    .categories button {
+        width: 130px;
+        height: 40px;
+    }
 }
 
 /* 
